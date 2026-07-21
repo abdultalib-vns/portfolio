@@ -328,7 +328,7 @@
   .section {
     height: 100svh;
     min-height: -webkit-fill-available;
-    --hero-mobile-awards-h: min(34svh, 18rem);
+    --hero-mobile-awards-h: min(41svh, 21.5rem);
   }
 
   .socialSidebar { display: none; }
