@@ -361,6 +361,7 @@
     overflow-x: auto;
     overflow-y: hidden;
     padding-bottom: 0.2rem;
+    padding-right: 1.5rem;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
   }
@@ -369,8 +370,8 @@
   .pillDot     { display: none; }
   .viewBtn     { font-size: 0.82rem; padding: 0.65rem 1.4rem; margin-top: 0.25rem; }
   .toolsBoardCard {
-    width: 100%;
-    max-width: 18rem;
+    width: calc(100% + 0rem);
+    max-width: 100%;
     border-radius: 0.95rem;
     margin-top: 0.3rem;
   }
