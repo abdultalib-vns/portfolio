@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef, useState, Fragment } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 import { FaGithub, FaLinkedinIn, FaInstagram } from 'react-icons/fa'
 import { FiArrowUpRight, FiChevronLeft, FiChevronRight } from 'react-icons/fi'
@@ -39,7 +39,7 @@ export default function HeroSection() {
   const roleRef        = useRef(null)
   const firstName      = useRef(null)
   const lastName       = useRef(null)
-  const pillsRef       = useRef(null)
+
   const ctaBtnRef      = useRef(null)
   const statsRef       = useRef(null)
   const taglineCardRef = useRef(null)
@@ -85,7 +85,7 @@ export default function HeroSection() {
     const fadeY = [
       greetRef.current, roleRef.current,
       firstName.current, lastName.current,
-      pillsRef.current, ctaBtnRef.current, statsRef.current,
+      ctaBtnRef.current, statsRef.current,
     ].filter(Boolean)
 
     const fadeX = [taglineCardRef.current, availCardRef.current].filter(Boolean)
@@ -99,7 +99,6 @@ export default function HeroSection() {
       .to(roleRef.current,        { opacity: 1, y: 0, duration: 0.5,  ease: 'power2.out' }, '-=0.3')
       .to(firstName.current,      { opacity: 1, y: 0, duration: 0.6,  ease: 'power2.out' }, '-=0.2')
       .to(lastName.current,       { opacity: 1, y: 0, duration: 0.6,  ease: 'power2.out' }, '-=0.4')
-      .to(pillsRef.current,       { opacity: 1, y: 0, duration: 0.5,  ease: 'power2.out' }, '-=0.3')
       .to(ctaBtnRef.current,      { opacity: 1, y: 0, duration: 0.4,  ease: 'power2.out' }, '-=0.2')
       .to(statsRef.current,       { opacity: 1, y: 0, duration: 0.5,  ease: 'power2.out' }, '-=0.2')
       .to(taglineCardRef.current, { opacity: 1, x: 0, duration: 0.5,  ease: 'power2.out' }, '-=0.4')
@@ -153,27 +152,15 @@ export default function HeroSection() {
       <div className={styles.content}>
 
         {/* Greeting */}
-        <div className={styles.greeting}>
-          <p ref={greetRef} className={styles.greetText}>{"Hi, I'm"}</p>
-          <p ref={roleRef}  className={styles.roleText}>{profile.roles.short}</p>
+        <div ref={greetRef} className={styles.greeting}>
+          <span className={styles.greetText}>{"Hi, I'm"}</span>
+          <span ref={roleRef} className={styles.roleText}>{profile.roles.short}</span>
         </div>
 
         {/* Stacked Name */}
         <div className={styles.nameBlock}>
           <p ref={firstName} className={styles.name}>{profile.name.first}</p>
           <p ref={lastName}  className={styles.name}>{profile.name.last}</p>
-        </div>
-
-        {/* Tag Pills */}
-        <div ref={pillsRef} className={styles.pills}>
-          {content.hero.pills.map((tag, i) => (
-            <Fragment key={tag}>
-              <span className={styles.pill}>{tag}</span>
-              {i < content.hero.pills.length - 1 && (
-                <span className={styles.pillDot} aria-hidden="true" />
-              )}
-            </Fragment>
-          ))}
         </div>
 
         {/* View Projects CTA */}
