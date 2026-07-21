@@ -1,0 +1,378 @@
+{
+  "name": {
+    "first": "Abdul",
+    "last": "Talib",
+    "full": "Abdul Talib"
+  },
+  "email": "er.syedabdultalib@gmail.com",
+  "phone": "+91-7518077446",
+  "tagline": "Architecting AI-driven automation systems, agentic QA workflows, and production-grade test platforms.",
+  "description": "AI-driven Automation Test Engineer and AI Product Builder with almost 5 years across Infosys, PepsiCo, Ulta Beauty, enterprise quality engineering, and AI-native QA products.",
+  "roles": {
+    "short": "AI Automation Engineer",
+    "detailed": "AI-Driven Automation Test Engineer | Automation Architect | AI Product Builder"
+  },
+  "location": {
+    "based": "Varanasi, UP, India",
+    "availability": "Remote, WFO, Hybrid-WFO"
+  },
+  "available": true,
+  "bio": "I am Abdul Talib, an AI-driven Automation Test Engineer, Automation Architect, and AI Product Builder with almost 5 years of experience building enterprise quality-engineering systems and AI-powered automation platforms across Infosys, PepsiCo, and Ulta Beauty. I specialize in Selenium, Appium, Playwright, Robot Framework, Python, UIAutomator2, XCUITest, Azure DevOps, Jira, GitHub Actions, Jenkins, and CI/CD-integrated automation. My current work blends deep SDET execution with agentic AI architecture: LangChain, LangGraph, RAG, MCP, OpenAI, Claude, Gemini, Ollama, ChromaDB, Google ADK, BYOK architectures, LLM evaluation, and self-healing automation. I founded BugWizard AI, created RoboClaw AI Studio, and am building Ctrl Test AI to turn QA workflows, Robot Framework scripting, defect intelligence, and framework generation into faster, smarter product-quality systems.",
+  "stats": [
+    {
+      "value": "5",
+      "label": "Years Experience"
+    },
+    {
+      "value": "6x",
+      "label": "Infosys Insta Awards"
+    },
+    {
+      "value": "70%",
+      "label": "Less Scripting Effort"
+    }
+  ],
+  "skills": [
+    "AI Automation",
+    "SDET",
+    "Automation Architecture",
+    "Robot Framework",
+    "Selenium",
+    "Appium",
+    "Playwright",
+    "Python",
+    "Java",
+    "C#",
+    "C++",
+    "SQL",
+    "TestNG",
+    "JUnit",
+    "UIAutomator2",
+    "XCUITest",
+    "Perfecto",
+    "SeeTest",
+    "Postman",
+    "Charles Proxy",
+    "Dynatrace",
+    "Azure DevOps",
+    "Jira",
+    "Confluence",
+    "GitHub Actions",
+    "Azure Pipelines",
+    "Jenkins",
+    "Docker",
+    "LangChain",
+    "LangGraph",
+    "RAG",
+    "MCP",
+    "OpenAI API",
+    "Claude API",
+    "Gemini",
+    "Ollama",
+    "Hugging Face",
+    "ChromaDB",
+    "Google ADK",
+    "Prompt Engineering",
+    "Context Engineering",
+    "LLM Evaluation",
+    "Agentic AI"
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "role": "Software Quality Engineer - Automation Tester & AI Product Developer",
+      "company": "Infosys Limited",
+      "companyShort": "INFOSYS",
+      "type": "Full-time",
+      "location": "India",
+      "period": "Oct 2025",
+      "periodEnd": "Present",
+      "bullets": [
+        "Led development of Robogent AI Studio, an agentic AI platform that generates production-grade Robot Framework scripts with a self-healing automation engine and RAG-based AI Copilot.",
+        "Architected local Claude-via-Ollama inference and BYOK AI workflows, cutting token consumption while improving developer productivity by 60%.",
+        "Designed MCP integrations with GitHub Copilot and Claude Opus, reducing test-scripting effort by 65-70%.",
+        "Built PepsiCo Europe market automation in UIAutomator2 using Claude Opus, and maintained CI/CD-integrated frameworks across Azure Pipelines and GitHub Actions.",
+        "Recognized with 6 Infosys Insta Awards for GenAI, custom agent development, automation innovation, and high-impact delivery."
+      ],
+      "desc": "AI product development, agentic automation architecture, Robot Framework generation, MCP integrations, and enterprise QA delivery.",
+      "tech": [
+        "Robot Framework",
+        "UIAutomator2",
+        "LangChain",
+        "LangGraph",
+        "RAG",
+        "MCP",
+        "Ollama",
+        "Claude",
+        "Azure Pipelines",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "id": 2,
+      "role": "Systems Engineer - Automation Test Engineer",
+      "company": "Infosys / PepsiCo MFG Pro+",
+      "companyShort": "MFG PRO+",
+      "type": "Client Delivery",
+      "location": "India",
+      "period": "Mar 2025",
+      "periodEnd": "Oct 2025",
+      "bullets": [
+        "Owned end-to-end testing of MFG Pro+, a supply-chain lead-management system spanning web portal and native iOS app workflows.",
+        "Automated regression suites with Robot Framework, Python, and Selenium, reducing manual regression time by 40%.",
+        "Used GenAI and prompt engineering to generate test cases from user stories, cutting test-case creation time by 60%.",
+        "Led functional, UI/UX, integration, and performance validation across web and iOS platforms on multiple device configurations."
+      ],
+      "desc": "Supply-chain web and iOS quality engineering with Robot Framework automation and GenAI-assisted test design.",
+      "tech": [
+        "Robot Framework",
+        "Python",
+        "Selenium",
+        "iOS Testing",
+        "GenAI",
+        "Performance Validation"
+      ]
+    },
+    {
+      "id": 3,
+      "role": "Systems Engineer - ML Model & KPI Tester",
+      "company": "Infosys / PepsiCo PEPIRiS",
+      "companyShort": "PEPIRIS",
+      "type": "Client Delivery",
+      "location": "Global Markets",
+      "period": "Jul 2024",
+      "periodEnd": "Mar 2025",
+      "bullets": [
+        "Validated ML model accuracy for PEPIRiS across Saudi Arabia, UAE, Mexico, Turkey, Australia, and North America retail channels.",
+        "Owned KPI-accuracy testing by manually verifying backend report output against calculated KPIs.",
+        "Led KSA and UAE market testing across manual QA and automation scripting.",
+        "Executed regression, sanity, and exploratory testing across 10+ real devices and 5+ cloud simulators in Experitest SeeTest.",
+        "Partnered with the Accenture PACE integration team to validate end-to-end platform data flow."
+      ],
+      "desc": "ML validation, KPI accuracy, global market testing, and mobile QA for PepsiCo retail execution systems.",
+      "tech": [
+        "ML Testing",
+        "KPI Reports",
+        "Android",
+        "iOS",
+        "SeeTest",
+        "Regression",
+        "Exploratory Testing"
+      ]
+    },
+    {
+      "id": 4,
+      "role": "Senior Systems Associate - Application Development & Testing",
+      "company": "Infosys / Ulta Beauty",
+      "companyShort": "ULTA BEAUTY",
+      "type": "Client Delivery",
+      "location": "India",
+      "period": "Jun 2023",
+      "periodEnd": "Mar 2024",
+      "bullets": [
+        "Built and tested Cart, Checkout, and All Categories screens of Ulta Beauty's Android app using Kotlin and Jetpack Compose.",
+        "Integrated Amplience headless CMS for dynamic content and tested Firebase authentication workflows.",
+        "Conducted unit testing and code reviews to uphold production-quality engineering standards."
+      ],
+      "desc": "Android application development and retail mobile QA for Ulta Beauty ecommerce experiences.",
+      "tech": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Android",
+        "Amplience CMS",
+        "Firebase",
+        "Unit Testing"
+      ]
+    },
+    {
+      "id": 5,
+      "role": "Systems Associate - Functional Tester",
+      "company": "Infosys / Ulta Beauty",
+      "companyShort": "ULTA QA",
+      "type": "Client Delivery",
+      "location": "India",
+      "period": "Mar 2022",
+      "periodEnd": "Jun 2023",
+      "bullets": [
+        "Delivered web, Android, and iOS testing for Ulta Beauty's retail platform and logged 200+ defects in Jira with reproduction and severity data.",
+        "Ran ADA accessibility and cross-browser compatibility testing across Chrome, Firefox, IE, and Edge with Jenkins-integrated CI/CD execution.",
+        "Used Google Bard, now Gemini, to generate test cases from user stories and Adobe XD designs, improving coverage and story quality.",
+        "Received Infosys Insta Award and Ulta Beauty Client Appreciation for identifying critical Afterpay payment gateway defects before production release."
+      ],
+      "desc": "Functional, accessibility, compatibility, and mobile testing for enterprise retail platforms.",
+      "tech": [
+        "Jira",
+        "TFS",
+        "Confluence",
+        "ADA Testing",
+        "Cross-browser",
+        "Jenkins",
+        "Gemini"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "BugWizard AI",
+      "subtitle": "AI-Native QA Operations SaaS",
+      "type": "Founder Product",
+      "link": "https://bugwizard.in",
+      "image": "/assets/project-bugwizard-ai.png",
+      "tech": [
+        "MEAN Stack",
+        "Claude",
+        "GPT-4",
+        "Gemini",
+        "Ollama",
+        "Azure DevOps",
+        "Jira",
+        "Vector Search",
+        "CI/CD"
+      ],
+      "desc": "An AI-native QA operations platform automating bug creation, duplicate detection, retest reporting, evidence handling, and QA intelligence inside Azure DevOps and Jira, with voice-to-text capture, vector embeddings, Ozzy AI, and integrations across GitHub Actions, Azure Pipelines, Jenkins, GitLab CI, Bitbucket, and CircleCI."
+    },
+    {
+      "id": 2,
+      "title": "RoboClaw AI Studio",
+      "subtitle": "Published VS Code Extension for Robot Framework",
+      "type": "AI Extension",
+      "link": "https://roboclaw-aistudio.netlify.app/",
+      "image": "/assets/project-roboclaw-ai.png",
+      "tech": [
+        "VS Code Extension",
+        "Robot Framework",
+        "RAG",
+        "BYOK",
+        "Ollama",
+        "MCP",
+        "Self-healing",
+        "Python"
+      ],
+      "desc": "A published, RAG-powered VS Code extension that generates Robot Framework keyword-driven suites from requirements, supports BYOK architecture, and uses a self-correction cycle from CodeGenerator to RFSyntaxValidator with up to three retries before delivering automation-ready output."
+    },
+    {
+      "id": 3,
+      "title": "Ctrl Test AI",
+      "subtitle": "AI Copilot for Test Automation Frameworks",
+      "type": "In Development",
+      "link": "https://ctrltest-ai.lovable.app",
+      "image": "/assets/project-ctrltest-ai.png",
+      "tech": [
+        "Claude",
+        "OpenAI",
+        "Gemini",
+        "Ollama",
+        "Framework Generator",
+        "Page Objects",
+        "CI/CD",
+        "Automation Scaffolds"
+      ],
+      "desc": "A VS Code extension that generates full automation-testing framework scaffolds from a configuration wizard covering language, framework, test runner, design pattern, and CI/CD pipeline, with a provider-agnostic abstraction layer supporting 10+ LLM providers."
+    },
+    {
+      "id": 4,
+      "title": "Autogent AI",
+      "subtitle": "AI-Powered Test Automation Co-Pilot",
+      "type": "AI Product",
+      "link": "https://autogentai.lovable.app/",
+      "image": "/assets/project-autogent-ai.png",
+      "tech": [
+        "AI Test Generation",
+        "Self-healing",
+        "Smart Locators",
+        "Auto Bug Reporting",
+        "Real-time Dashboard",
+        "Web",
+        "Mobile",
+        "CI/CD"
+      ],
+      "desc": "An AI test automation co-pilot that writes, heals, and optimizes automation workflows across web, mobile, API, desktop, and CI/CD teams, with test case generation, self-healing automation, smart locator intelligence, bug reporting, and quality dashboards."
+    }
+  ],
+  "publications": [
+    {
+      "id": 1,
+      "title": "RoboClaw AI Studio",
+      "platform": "Published VS Code Extension",
+      "year": "2026",
+      "link": "https://roboclaw-aistudio.netlify.app/",
+      "desc": "RAG-powered Robot Framework code generation with BYOK AI providers, MCP integrations, and self-healing syntax validation."
+    },
+    {
+      "id": 2,
+      "title": "BugWizard AI",
+      "platform": "Founder Product",
+      "year": "2026",
+      "link": "https://bugwizard.in",
+      "desc": "AI-native QA operations SaaS for intelligent bug reporting, duplicate detection, retest reporting, evidence handling, and Jira/Azure DevOps workflows."
+    },
+    {
+      "id": 3,
+      "title": "Ctrl Test AI",
+      "platform": "VS Code Extension",
+      "year": "2026",
+      "link": "https://ctrltest-ai.lovable.app",
+      "desc": "AI copilot that generates complete automation framework scaffolds from configuration in under two minutes."
+    },
+    {
+      "id": 4,
+      "title": "Latest Resume",
+      "platform": "Resume Export",
+      "year": "2026",
+      "link": "/assets/abdul-talib-ai-automation-engineer-resume.pdf",
+      "desc": "Latest AI Automation Engineer resume with work history, AI engineering experience, products, achievements, education, awards, and certifications."
+    },
+    {
+      "id": 5,
+      "title": "Autogent AI",
+      "platform": "AI Test Automation Co-Pilot",
+      "year": "2026",
+      "link": "https://autogentai.lovable.app/",
+      "desc": "AI-powered co-pilot for test case generation, self-healing automation, smart locators, auto bug reporting, and real-time QA dashboards."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Computer Applications (MCA)",
+      "school": "Chandigarh University, Punjab",
+      "field": "Computer Software Engineering",
+      "period": "Jul 2022 - Sep 2024"
+    },
+    {
+      "degree": "Bachelor of Computer Applications (BCA)",
+      "school": "Veer Bahadur Singh Purvanchal University, Jaunpur",
+      "field": "Computer Applications",
+      "period": "Jul 2018 - Oct 2021"
+    }
+  ],
+  "awards": [
+    "6x Infosys Insta Award Winner for GenAI development, custom AI agents, innovation, and outstanding performance",
+    "GitHub Foundation Certification",
+    "Infosys Certified AI-First Software Engineering",
+    "Infosys Certified Prompt & Context Engineering",
+    "Infosys AI Builder, AI Consumer, AI in Test Automation, and Responsible AI certifications",
+    "Claude AI Course Certification",
+    "Infosys AI Foundation to Advanced Course Certification",
+    "Cognizant Ready Set Agile Job Simulation",
+    "Ulta Beauty Client Appreciation Award for critical Afterpay payment gateway defect discovery"
+  ],
+  "socials": [
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/abdultalib751/"
+    },
+    {
+      "label": "GitHub",
+      "href": "https://github.com/abdultalib751"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://www.instagram.com/abdultalib751"
+    },
+    {
+      "label": "YouTube",
+      "href": "https://www.youtube.com/@ZoonieTodTV"
+    }
+  ]
+}

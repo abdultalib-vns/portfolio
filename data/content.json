@@ -1,0 +1,22 @@
+{
+  "site": {
+    "tagline": "Portfolio 2026"
+  },
+  "hero": {
+    "taglineHighlight": "AI-driven",
+    "freelanceNote": "Open to remote, WFO, and hybrid AI automation, SDET, QA architecture, and AI product opportunities.",
+    "availableLabel": "Available for AI automation work",
+    "pills": ["AI Automation", "SDET", "Automation Architecture", "Agentic QA"],
+    "specialistStat": { "value": "AI + QA", "label": "Architect" }
+  },
+  "interstitial": {
+    "availabilityLabel": "Availability",
+    "basedInLabel": "Based in",
+    "statLabels": ["Years\nexperience", "Infosys\nawards", "Less scripting\neffort"]
+  },
+  "footer": {
+    "eyebrow": "Available for AI automation and quality-engineering systems",
+    "ctaLines": ["Making software", "quality feel"],
+    "ctaAccent": "agentic."
+  }
+}
