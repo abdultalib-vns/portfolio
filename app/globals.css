@@ -78,4 +78,10 @@ main { scrollbar-width: none; -ms-overflow-style: none; }
   /* Override inline 100vh - Chrome mobile toolbar hides bottom content */
   html, body { height: 100svh !important; }
   main { height: 100svh !important; }
+
+  /* Safe area for notched phones */
+  body {
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
 }

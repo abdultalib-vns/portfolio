@@ -271,17 +271,18 @@
   .timeline {
     justify-content: flex-start;
     padding-top: 1.2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
     overflow-y: auto;
     overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
   }
 
   .snakeLine { display: none; }
 
   .entries {
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1.25rem;
   }
 
   .entry {
@@ -292,18 +293,20 @@
 
   .dot {
     flex-shrink: 0;
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
   }
 
   .dot::after { display: none; }
 
   .card { padding-top: 0; }
 
-  .company  { font-size: 1.1rem; }
+  .company  { font-size: 1rem; }
+  .role     { font-size: 0.78rem; }
   .bullets  { max-height: none; overflow: visible; }
-  .bullet   { font-size: 0.88rem; }
-  .stack    { display: none; }
+  .bullet   { font-size: 0.82rem; line-height: 1.5; }
+  .stack    { display: flex; flex-wrap: wrap; gap: 0.25rem; margin-top: 0.5rem; }
+  .tag      { font-size: 0.55rem; padding: 0.15rem 0.35rem; }
 }
 
 /* ── Tablet (768–1023px) ────────────────────────── */

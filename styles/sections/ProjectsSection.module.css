@@ -309,11 +309,19 @@
     gap: 1rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    padding-bottom: clamp(5rem, 14vh, 8rem);
   }
 
   .slideRight { display: none; }
-  .title      { font-size: clamp(1.8rem, 11vw, 2.7rem); max-width: 100%; }
+  .title      { font-size: clamp(2rem, 12vw, 3rem); max-width: 100%; line-height: 0.92; }
+  .subtitle   { font-size: 0.72rem; margin-top: 0.15rem; }
   .slideNum   { font-size: 5rem; bottom: 5rem; }
+  .liveBtn    { padding: 0.7rem 1.3rem; font-size: 0.68rem; min-height: 2.8rem; }
+  .typeTag    { font-size: 0.58rem; }
+
+  .topBar {
+    padding: 3rem 1.5rem 0;
+  }
 }
 
 /* ── Mobile landscape / small tablet ────────── */
