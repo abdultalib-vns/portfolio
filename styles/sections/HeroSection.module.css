@@ -339,11 +339,11 @@
     bottom: calc(var(--hero-mobile-awards-h) + 1rem);
     gap: 0.55rem;
     max-width: 100%;
-    --hero-name-size: clamp(2.2rem, 9vw, 3.4rem);
+    --hero-name-size: clamp(1.5rem, 6vw, 2.2rem);
     overflow: hidden;
   }
 
-  .nameBlock { flex-direction: row; flex-wrap: wrap; gap: 0 0.35em; }
+  .nameBlock { flex-direction: row; flex-wrap: nowrap; gap: 0 0.3em; }
   .name { white-space: nowrap; }
 
   .greeting { gap: 0.15rem; }
@@ -387,7 +387,7 @@
 }
 
 @media (max-width: 374px) {
-  .content { top: 4.5rem; max-width: 80vw; --hero-name-size: clamp(2rem, 9vw, 3rem); }
+  .content { top: 4.5rem; max-width: 100%; --hero-name-size: clamp(1.4rem, 5.5vw, 2rem); }
 }
 
 /* â”€â”€â”€ Responsive: Tablet 768â€“1023px â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
