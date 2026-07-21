@@ -181,6 +181,16 @@ export default function HeroSection() {
            View Work <FiArrowUpRight />
         </button>
 
+        <div className={styles.toolsBoardCard}>
+          <Image
+            src="/assets/MyAI-Tools.png"
+            alt="AI tools Abdul Talib works with"
+            fill
+            sizes="(max-width: 767px) calc(100vw - 3rem), 32rem"
+            className={styles.toolsBoardImg}
+          />
+        </div>
+
         {/* Stats Row */}
         <div ref={statsRef} className={styles.stats}>
           {[...profile.stats.slice(0, 2), content.hero.specialistStat].map(s => (

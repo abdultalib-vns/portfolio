@@ -168,27 +168,50 @@
   display: inline-flex;
   align-items: center;
   gap: 0.45rem;
-  background: var(--accent);
+  background: #0b0b0b;
   color: #ffffff;
   font-family: var(--font-baloo), sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
   padding: 0.65rem 1.6rem;
   border-radius: 9999px;
-  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.12);
   cursor: pointer;
-  transition: background 0.2s ease;
+  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
   align-self: flex-start;
   letter-spacing: 0.01em;
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.2);
 }
 
 .viewBtn:hover {
-  background: var(--accent-hover);
+  background: #181818;
+  transform: translateY(-1px);
+  box-shadow: 0 16px 42px rgba(0, 0, 0, 0.24);
 }
 
 .viewBtn:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
+}
+
+.toolsBoardCard {
+  position: relative;
+  width: min(32rem, 100%);
+  aspect-ratio: 1365 / 768;
+  align-self: flex-start;
+  margin-top: 0.45rem;
+  border-radius: 1.15rem;
+  overflow: hidden;
+  background: rgba(7, 9, 12, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.22),
+    0 0 0 1px rgba(255, 255, 255, 0.04) inset;
+}
+
+.toolsBoardImg {
+  object-fit: cover;
+  object-position: center;
 }
 
 /* â”€â”€â”€ Stats Row â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
@@ -329,10 +352,28 @@
   .statCard    { padding: 0.5rem 0.6rem; min-width: 0; width: 100%; }
   .statValue   { font-size: 0.9rem; }
   .statLabel   { font-size: 0.52rem; }
-  .pills       { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.5rem; }
-  .pill        { font-size: 0.65rem; padding: 0.38rem 0.7rem; text-align: center; white-space: nowrap; }
+  .pills {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.45rem;
+    margin-top: 0.5rem;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 0.2rem;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .pills::-webkit-scrollbar { display: none; }
+  .pill        { font-size: 0.65rem; padding: 0.38rem 0.7rem; text-align: center; white-space: nowrap; flex: 0 0 auto; }
   .pillDot     { display: none; }
   .viewBtn     { font-size: 0.82rem; padding: 0.65rem 1.4rem; margin-top: 0.25rem; }
+  .toolsBoardCard {
+    width: 100%;
+    max-width: 18rem;
+    border-radius: 0.95rem;
+    margin-top: 0.3rem;
+  }
 }
 
 @media (max-width: 374px) {
