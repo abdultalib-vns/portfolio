@@ -61,7 +61,7 @@
   position: relative;
   z-index: 2;
 
-  font-size: clamp(0.55rem, 2vw, 0.75rem);
+  font-size: clamp(1.2rem, 3vw, 1.8rem);
 
   font-weight: 700;
 
