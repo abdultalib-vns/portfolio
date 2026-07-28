@@ -109,7 +109,6 @@ export default function Home() {
 
     const isMobile = window.matchMedia('(max-width: 767px)').matches
 
-    el.addEventListener('wheel',  onWheel,  { passive: false })
     el.addEventListener('scroll', onScroll, { passive: true  })
 
     let mTouchY = 0
@@ -124,6 +123,7 @@ export default function Home() {
     }
 
     if (!isMobile) {
+      el.addEventListener('wheel',  onWheel,  { passive: false })
       el.addEventListener('touchstart', onTouchStart, { passive: true })
       el.addEventListener('touchend',   onTouchEnd,   { passive: true })
     } else {
@@ -133,9 +133,9 @@ export default function Home() {
     window.addEventListener('footer-loop-back', onFooterLoop)
 
     return () => {
-      el.removeEventListener('wheel',  onWheel)
       el.removeEventListener('scroll', onScroll)
       if (!isMobile) {
+        el.removeEventListener('wheel',  onWheel)
         el.removeEventListener('touchstart', onTouchStart)
         el.removeEventListener('touchend',   onTouchEnd)
       } else {
